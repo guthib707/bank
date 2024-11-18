@@ -1,13 +1,14 @@
-// Recipe for disaster.
-
+// I don't really know how checking accounts work, but I don't care.
 public class Checking extends Bank {
   protected double overdraftLimit;
 
+  // Steal.
   public Checking(int accountNumber, String name, double balance, double overdraftLimit) {
     super(accountNumber, name, balance);
     this.overdraftLimit = overdraftLimit;
   }
 
+  // Your parent did not give you a body, so you must make one yourself, child.
   @Override
   public void deposit(double amount) {
     if (amount > 0) {

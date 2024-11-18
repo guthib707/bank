@@ -3,11 +3,13 @@
 public class Savings extends Bank {
   protected double interestRate;
 
+  // Steal.
   public Savings(int accountNumber, String name, double balance, double interestRate) {
     super(accountNumber, name, balance);
     this.interestRate = interestRate;
   }
 
+  // Your parent did not give you a body, so you must make one yourself, child.
   @Override
   public void deposit(double amount) {
     if (amount > 0) {

@@ -1,5 +1,6 @@
 // Test the program here, I don't care.
 
+// The main class has a main method, but the branch name is master, where is the consistency!?
 public class Main {
   public static void main(String[] args) {
     Checking acc1 = new Checking(10001, "Steve", 1000, 100);
