@@ -1,3 +1,5 @@
+// Recipe for disaster.
+
 public class Checking extends Bank {
   protected double overdraftLimit;
 

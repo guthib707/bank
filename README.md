@@ -1,2 +1,2 @@
 # Bank
-A simple ATM system written in Java.
+I hate this, but whatever, this is my first repository anyway.

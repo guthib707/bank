@@ -1,3 +1,5 @@
+// Someone made a bank account, I guess.
+
 abstract class Bank {
   protected int accountNumber;
   protected String name;

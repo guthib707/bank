@@ -1,3 +1,5 @@
+// Oh, I see you made a savings account, huh?
+
 public class Savings extends Bank {
   protected double interestRate;
 
